@@ -28,7 +28,7 @@ Model.prototype.save = yieldly(function(obj, fn) {
 // save on the server
 yield Model.save(obj);
 
-// in the browser
+// save in the browser
 Model.save(obj, fn);
 ```
 
