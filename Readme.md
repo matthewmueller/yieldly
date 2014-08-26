@@ -40,6 +40,13 @@ yield Model.save(obj, fn);
   that you can use in co, when the final argument passed is not
   a callback function.
 
+## Test
+
+```bash
+$ npm install
+$ make test
+```
+
 ## License
 
 (The MIT License)
