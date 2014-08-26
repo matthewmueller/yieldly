@@ -29,7 +29,7 @@ Model.prototype.save = yieldly(function(obj, fn) {
 yield Model.save(obj);
 
 // in the browser
-yield Model.save(obj, fn);
+Model.save(obj, fn);
 ```
 
 ## API
